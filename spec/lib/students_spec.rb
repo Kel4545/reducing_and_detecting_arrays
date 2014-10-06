@@ -30,7 +30,7 @@ describe Students do
     expect(actual).to eq({name: "Greg", age: 15})
   end
 
-  it 'can find out if there are any old enough to drink' do
+ it 'can find out if there are any old enough to drink' do
     expect(students.any_older_than?(21)).to eq true
 
     expect(students.any_older_than?(55)).to eq false
